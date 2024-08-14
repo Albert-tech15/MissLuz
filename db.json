@@ -1,0 +1,34 @@
+{
+    "images": [
+        {
+            "id": 1,
+            "url": "https://blog.humboldt.edu.mx/hubfs/caracteri%CC%81sticas-que-deben-contar-los-mejores-kinder-en-mexico.jpg",
+            "alt": "Descripcion de la imagen 1"
+        },
+        {
+            "id": 2,
+            "url": "https://blog.innovaschools.edu.mx/hubfs/educacion-preescolar-kinder-estado-de-mexico.jpg",
+            "alt": "Descripcion de la imagen 2"
+        },
+        {
+            "id": 3,
+            "url": "https://www.noticierosgrem.com.mx/wp-content/uploads/2018/08/salon-preescolar-kinder.jpeg",
+            "alt": "Descripcion de la imagen 3"
+        },
+        {
+            "id": 4,
+            "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8AQqj407hCwvp5LYWL8JnviJNOjAEPMP_Ug&s",
+            "alt": "Descripcion de la imagen 4"
+        },
+        {
+            "id": 5,
+            "url": "https://boletines.guanajuato.gob.mx/wp-content/uploads/2022/07/02-5.jpeg",
+            "alt": "Descripcion de la imagen 5"
+        },
+        {
+            "id": 6,
+            "url": "https://kaltiacomunidadeducativamontessori.com/wp-content/uploads/2019/02/service-1.jpg",
+            "alt": "Descripcion de la imagen 6"
+        }
+    ]
+}

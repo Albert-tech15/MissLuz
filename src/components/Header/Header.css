@@ -1,0 +1,84 @@
+.header {
+    background: linear-gradient(to bottom, #ffeb3b, #ff9800);
+    color: #ffffff;
+    text-align: center;
+    padding: 2rem;
+    border-bottom: 5px solid #ff5722;
+    position: fixed;
+    width: 100%;
+    top: -100px;
+    left: 0;
+    z-index: 1000;
+    animation: slideDown 1s ease forwards;
+
+}
+
+.header h1 {
+    font-family: 'Comic Sans MS' , cursive, sans-serif;
+    font-size: 3rem;
+    margin: 0;
+    padding-bottom: 1rem;
+
+}
+
+.header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header nav ul li {
+    display: inline;
+    margin: 0 1rem;
+
+
+}
+
+.header nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.5rem;
+    position: relative;
+    transition: color 0.3s ease;
+
+}
+
+.header nav ul li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background-color: #ffeb3b;
+    left: 0;
+    bottom: -5px;
+    transition: width 0.3s ease;
+}
+
+.header nav ul li a:hover {
+    color: #ffeb3b;
+}
+
+.header nav ul li a:hover::after {
+    width: 100%;
+}
+
+.header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+@keyframes slideDown {
+    from {
+        top: -100px;
+    } 
+    to {
+        top: 0;
+    }
+}
